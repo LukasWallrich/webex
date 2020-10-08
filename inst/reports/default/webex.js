@@ -33,6 +33,8 @@ solveme_func = function(e) {
   
   if (my_answer !== "" & real_answers.includes(my_answer)) {
     cl.add("correct");
+  } else if (my_answer !== "") {
+    cl.add("incorrect")
   } else {
     cl.remove("correct");
   }
