@@ -1,6 +1,8 @@
 /* styles for solveme */
-.solveme { border: 2px dotted red; }
-.solveme.correct { border: 2px solid blue; }
+.solveme { border: 2px dotted yellow; }
+.solveme.correct { border: 2px solid blue; background: #41D873;}
+.solveme.incorrect { border: 2px solid blue; background: pink;}
+
 /* styles for hidden solutions */
 .solution {
     height: 2.5em;
